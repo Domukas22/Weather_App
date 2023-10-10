@@ -1,12 +1,11 @@
 import returnText from "./logic/function";
-import './styles/reset.css'
-import './styles/main.css'
+import "./styles/reset.css";
+import "./styles/main.css";
 
-
-function print() {
-    const text = document.createElement('h2')
-    text.innerHTML = returnText()
-    document.body.appendChild(text)
+function _print_this(textSTRING) {
+  const text = document.createElement("h2");
+  text.innerHTML = textSTRING;
+  document.body.appendChild(text);
 }
 
-print();
+_print_this(returnText());

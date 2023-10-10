@@ -1,9 +1,71 @@
 
 
-* {
-    border: 1px solid grey;
+@font-face {
+  font-family: "Nunito";
+  src: url(../assets/fonts/Nunito-Light.ttf);
+  font-weight: 300;
+  font-style: light;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(../assets/fonts/Nunito-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(../assets/fonts/Nunito-Medium.ttf);
+  font-weight: 500;
+  font-style: medium;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(../assets/fonts/Nunito-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(../assets/fonts/Nunito-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(../assets/fonts/Nunito-Black.ttf);
+  font-weight: 800;
 }
 
+:root {
+  --bgBODY: #3a3a3a;
+  --bgFORM: #464646;
+  --orange: #f67c00;
+  --orangeHOVER: #d66c01;
+  --greenSUCCESS: rgb(98, 255, 98);
+
+  --white_003: rgba(255, 255, 255, 0.03);
+  --white_005: rgba(255, 255, 255, 0.05);
+  --white_01: rgba(255, 255, 255, 0.1);
+  --white_02: rgba(255, 255, 255, 0.2);
+  --white_03: rgba(255, 255, 255, 0.3);
+  --white_04: rgba(255, 255, 255, 0.4);
+  --white_05: rgba(255, 255, 255, 0.5);
+  --white_06: rgba(255, 255, 255, 0.6);
+  --white_07: rgba(255, 255, 255, 0.7);
+  --white_08: rgba(255, 255, 255, 0.8);
+  --white_09: rgba(255, 255, 255, 0.9);
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--bgBODY);
+}
 h2 {
-    color: rgb(144, 55, 0);
+  padding: 2rem 4rem;
+  border: 1px solid grey;
+  margin: 1rem;
 }
