@@ -39,29 +39,17 @@
   --orangeHOVER: #d66c01;
   --greenSUCCESS: rgb(98, 255, 98);
 
-  --white_003: rgba(255, 255, 255, 0.03);
-  --white_005: rgba(255, 255, 255, 0.05);
-  --white_01: rgba(255, 255, 255, 0.1);
-  --white_02: rgba(255, 255, 255, 0.2);
-  --white_03: rgba(255, 255, 255, 0.3);
-  --white_04: rgba(255, 255, 255, 0.4);
-  --white_05: rgba(255, 255, 255, 0.5);
-  --white_06: rgba(255, 255, 255, 0.6);
-  --white_07: rgba(255, 255, 255, 0.7);
-  --white_08: rgba(255, 255, 255, 0.8);
-  --white_09: rgba(255, 255, 255, 0.9);
+  --black_003: rgba(0, 0, 0, 0.03);
+  --black_005: rgba(0, 0, 0, 0.05);
+  --black_01: rgba(0, 0, 0, 0.1);
+  --black_02: rgba(0, 0, 0, 0.2);
+  --black_03: rgba(0, 0, 0, 0.3);
+  --black_04: rgba(0, 0, 0, 0.4);
+  --black_05: rgba(0, 0, 0, 0.5);
+  --black_06: rgba(0, 0, 0, 0.6);
+  --black_07: rgba(0, 0, 0, 0.7);
+  --black_08: rgba(0, 0, 0, 0.8);
+  --black_09: rgba(0, 0, 0, 0.9);
 }
 
-body {
-  height: 100vh;
-  overflow: hidden;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-h2 {
-  padding: 2rem 4rem;
-  border: 1px solid grey;
-  margin: 1rem;
-}

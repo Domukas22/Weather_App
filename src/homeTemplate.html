@@ -14,12 +14,23 @@
       * {
         font-size: 1.7rem;
         font-family: 'Nunito' !important;
-        color: rgba(255, 255, 255, 0.95);
+        color: rgba(0, 0, 0, 0.95);
         transition: 150ms;
       }
     </style>
 </head>
 <body>
 
+  <div class="contentWRAP">
+    <div class="contentTopWRAP">
+      <h4 class="displayedCityWEATHER">Cloudy</h5>
+        <h1 class="displayedCityNAME">Heidelberg, Germany</h2>
+    </div>
+    <form class="contentBottomWRAP">
+      <input type="search" name="citySearch" id="citySearch" placeholder="Search a city..." aria-label="Search a city" data-haserror="false">
+    </form>
+  </div>
+
+  <div class="errorMESSAGE" data-visible="false"></div>
 </body>
-    </html>
+</html>

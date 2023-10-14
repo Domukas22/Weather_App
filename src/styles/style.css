@@ -1,0 +1,70 @@
+
+body {
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(254,255,151);
+  background: linear-gradient(62deg, rgba(254,255,151,1) 0%, rgba(120,197,252,1) 50%, rgba(230,206,105,1) 88%);
+}
+.errorMESSAGE {
+  position: absolute;
+  bottom: 50px;
+  padding: 1rem 2rem 1rem 1.6rem;
+
+  background-color: rgb(155, 100, 100);
+  color: rgb(255, 255, 255);
+  border-radius: 0.6rem;
+
+  transform: translateY(24px);
+  opacity: 0%;
+}
+.errorMESSAGE[data-visible="true"] {
+  opacity: 100%;
+  transform: translateY(0);
+} 
+span {
+  color: inherit;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.contentWRAP {
+  width: 40rem;
+
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+
+.contentTopWRAP {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.displayedCityNAME {
+  margin-top: 0.8rem;
+}
+
+.contentBottomWRAP {
+  padding: 2rem;
+  border-top: 1px solid var(--black_01);
+}
+input{
+  width: 100%;
+  padding: 1.6rem;
+  background-color: var(--black_005);
+  border-radius: 10px;
+  border: 1px solid var(--black_005);
+}
+input[data-haserror="true"] {
+  border-color: rgb(255, 78, 78);
+  background-color: rgb(255, 228, 228);
+}

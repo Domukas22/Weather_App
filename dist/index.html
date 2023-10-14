@@ -8,17 +8,31 @@
       html {
         font-size: 62.5%;
       }
+      body {
+        background-color: #3a3a3a;
+      }
       * {
         font-size: 1.7rem;
         font-family: 'Nunito' !important;
-        color: rgba(255, 255, 255, 0.95);
+        color: rgba(0, 0, 0, 0.95);
         transition: 150ms;
       }
     </style>
-<script defer src="maindc742c5379818d6e3333.js"></script></head>
+<script defer src="main00068c773ef9fa6a4c6d.js"></script></head>
 <body>
-    <div class="content">
-        <h2>Text from homeTemplate.html</h2>
+
+  <div class="contentWRAP">
+    <div class="contentTopWRAP">
+      <img class="displayedCityWeatherIMG" alt="weather">
+      <div class="weatherTextWRAP">
+        <h4 class="displayedCityWEATHER">Cloudy</h5>
+        <h1 class="displayedCityNAME">Heidelberg, Germany</h2>
+      </div>
     </div>
+    <form class="contentBottomWRAP">
+      <input type="search" name="citySearch" id="citySearch" placeholder="Search a city..." aria-label="Search a city">
+    </form>
+  </div>
+
 </body>
-    </html>
+</html>
